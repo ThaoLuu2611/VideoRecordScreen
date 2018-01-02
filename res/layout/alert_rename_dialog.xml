@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="22dp"
+    android:paddingLeft="17dp"
+    android:paddingRight="17dp"
+    android:id="@+id/rename_dialog_layout"
+    android:paddingTop="23dp" >
+
+    <EditText
+        android:id="@+id/rename_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:privateImeOptions="inputType=filename"
+        android:scrollHorizontally="true"
+        android:singleLine="true" />
+
+</FrameLayout>

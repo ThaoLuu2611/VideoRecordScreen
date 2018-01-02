@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/select_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:text="Select all"
+        android:textSize="13pt" />
+
+    <CheckBox
+        android:id="@+id/select_all_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/select_all"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1pt"
+        android:layout_below="@id/select_all"
+        android:layout_marginTop="14dp"
+        android:background="#ffff00" />
+
+    <ListView
+        android:id="@+id/optionList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/line1"
+        android:choiceMode="multipleChoice" >
+    </ListView>
+
+    <Button
+        android:id="@+id/deleteDump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optionList"
+        android:text="Delete old log" />
+
+    <Button
+        android:id="@+id/tcpDump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deleteDump"
+        android:text="TCP DUMP START" />
+
+    <Button
+        android:id="@+id/silentLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tcpDump"
+        android:text="Silent Log: Off" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/silentLog"
+        android:layout_centerHorizontal="true"
+        android:text="Ok" >
+    </Button>
+
+</RelativeLayout>

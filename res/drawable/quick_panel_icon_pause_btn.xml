@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- focused -->
+    <item android:drawable="@drawable/quick_panel_music_pause_focus" android:state_focused="true"/>
+    
+    <!-- pressed -->
+    <item android:drawable="@drawable/quick_panel_music_pause_press" android:state_pressed="true"/>
+
+    <!-- normal -->
+    <item android:drawable="@drawable/quick_panel_music_pause"/>
+
+</selector>

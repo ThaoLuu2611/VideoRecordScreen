@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quickpanel_voicerecord"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/quickpanel_voicerecord_launch_recorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/app_name"
+        android:gravity="center_horizontal"
+        android:src="@drawable/videocapture_icon" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="8dp" >
+
+        <TextView
+            android:id="@+id/getDumpText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Getting dumpstate..."
+            android:textSize="@dimen/time_text_size" />
+
+        <TextView
+            android:id="@+id/wait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Please wait..."
+            android:textSize="@dimen/time_text_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cancel_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/quick_panel_player_cancel" />
+
+</LinearLayout>

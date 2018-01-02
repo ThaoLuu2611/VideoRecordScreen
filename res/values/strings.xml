@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">ScreenVideoRecorder</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="screen_record_notification_title">Screen recorder</string>
+    <string name="cancel_record_screen ">Recording will be stopped and  the file will not be saved</string>
+    <string name="cancel_get_dump">Do you want to cancel get dumpstate/logcat?</string>
+    <string name="screen_record_saved">Do you want to stop recording?</string>
+    <string name="done">done</string>
+    <string name="screenrecord">screenrecord</string>
+    <string name="screen_recording">screen recording...</string>
+    <string name="default_time">00:00</string>
+    <string name="max_time">03:00</string>
+    <string name="pause">pause:</string>
+    <string name="toast_finish_record_screen">Your video file has been saved</string>
+    <string name="toast_save_video_screen">Your video wile will be saved</string>
+    <string name="max_character">Up to %d characters available</string>
+    <string name="toast_time_to_pause">Record for at least 3s before pause</string>
+    <string name="toast_time_to_stop">Record for at least 3s before stop</string>
+    <string name="toast_start_get_dump">Start getting dumpstate...</string>
+    <string name="toast_copy_to_sdcard">Start copying log into sdcard...</string>
+    <string name="toast_get_dumpstate_done">Get log done</string>
+    <string name="toast_save_video">Your video is saving...</string>
+    <string name="toast_video_saved">Your video has been saved</string>
+    <string name="toast_prepare_stop">Prepare to stop recording...</string>
+    <string name="toast_enter_new_name">Input your new file name first</string>
+    <string name="toast_cancel_record">Your video has not been saved</string>
+
+</resources>
